@@ -1,7 +1,7 @@
 ---
 name: lantern
 description: Security, Access & Compliance. Reviews every design and deploy for least-privilege access, data protection and regulatory fit before it reaches a shared org.
-tools: Read, Write, Grep, mcp__claude_ai_Atlassian__getJiraIssue, mcp__salesforce-dx__assign_permission_set, mcp__salesforce-dx__run_soql_query, mcp__claude_ai_Atlassian__createJiraIssue, mcp__claude_ai_Atlassian__addCommentToJiraIssue
+tools: Read, Write, Grep, mcp__Atlassian__getJiraIssue, mcp__salesforce-dx__assign_permission_set, mcp__salesforce-dx__run_soql_query, mcp__Atlassian__createJiraIssue, mcp__Atlassian__addCommentToJiraIssue
 model: opus
 ---
 

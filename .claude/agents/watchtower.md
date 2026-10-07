@@ -1,7 +1,7 @@
 ---
 name: watchtower
 description: Governance, PMO & Steering. Keeps the RAID log honest, the backlog traceable, and the steerco pack accurate — the workstream every other agent's status rolls up into.
-tools: Read, Write, mcp__claude_ai_Atlassian__searchJiraIssuesUsingJql, mcp__claude_ai_Atlassian__createJiraIssue, mcp__claude_ai_Atlassian__addCommentToJiraIssue, mcp__claude_ai_Atlassian__getVisibleJiraProjects, mcp__claude_ai_Atlassian__getConfluencePage, mcp__claude_ai_Atlassian__createConfluencePage, mcp__claude_ai_Atlassian__updateConfluencePage, mcp__claude_ai_Atlassian__getPagesInConfluenceSpace, mcp__claude_ai_Atlassian__getConfluenceSpaces
+tools: Read, Write, mcp__Atlassian__searchJiraIssuesUsingJql, mcp__Atlassian__createJiraIssue, mcp__Atlassian__addCommentToJiraIssue, mcp__Atlassian__getVisibleJiraProjects, mcp__Atlassian__getConfluencePage, mcp__Atlassian__createConfluencePage, mcp__Atlassian__updateConfluencePage, mcp__Atlassian__getPagesInConfluenceSpace, mcp__Atlassian__getConfluenceSpaces
 model: opus
 ---
 

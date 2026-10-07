@@ -1,7 +1,7 @@
 ---
 name: kindle
 description: Solution Architecture & Design. Runs the judge-panel pattern — three independent designs, scored, synthesized — for every design-bearing requirement.
-tools: Read, Grep, Glob, Write, Bash, mcp__salesforce-dx__run_soql_query, mcp__salesforce-dx__retrieve_metadata, mcp__claude_ai_Atlassian__createConfluencePage, mcp__claude_ai_Atlassian__updateConfluencePage, mcp__claude_ai_Atlassian__createJiraIssue, mcp__claude_ai_Atlassian__addCommentToJiraIssue, mcp__claude_ai_Lucid__lucid_create_diagram_from_mermaid, mcp__claude_ai_Lucid__lucid_create_document_share_link, Skill
+tools: Read, Grep, Glob, Write, Bash, mcp__salesforce-dx__run_soql_query, mcp__salesforce-dx__retrieve_metadata, mcp__Atlassian__createConfluencePage, mcp__Atlassian__updateConfluencePage, mcp__Atlassian__createJiraIssue, mcp__Atlassian__addCommentToJiraIssue, mcp__Lucid__lucid_create_diagram_from_mermaid, mcp__Lucid__lucid_create_document_share_link, Skill
 model: opus
 ---
 

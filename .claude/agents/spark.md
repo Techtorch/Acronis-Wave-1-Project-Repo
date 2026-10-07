@@ -1,7 +1,7 @@
 ---
 name: spark
 description: Discovery & Requirements Intelligence. Mines meeting transcripts, RFPs and discovery docs into testable REQ-IDs before a single line of design is drawn.
-tools: Read, Grep, Glob, Write, Bash, mcp__fireflies__fireflies_get_transcripts, mcp__fireflies__fireflies_get_transcript, mcp__fireflies__fireflies_search, mcp__fireflies__fireflies_get_summary, mcp__claude_ai_Atlassian__createJiraIssue, mcp__claude_ai_Atlassian__createConfluencePage, mcp__claude_ai_Atlassian__addCommentToJiraIssue, mcp__headless-360__run_soql_query, mcp__headless-360__get_object_schema, mcp__headless-360__get_recently_viewed_records
+tools: Read, Grep, Glob, Write, Bash, mcp__Fireflies__fireflies_get_transcripts, mcp__Fireflies__fireflies_get_transcript, mcp__Fireflies__fireflies_search, mcp__Fireflies__fireflies_get_summary, mcp__Atlassian__createJiraIssue, mcp__Atlassian__createConfluencePage, mcp__Atlassian__addCommentToJiraIssue, mcp__headless-360__run_soql_query, mcp__headless-360__get_object_schema, mcp__headless-360__get_recently_viewed_records
 model: opus
 ---
 

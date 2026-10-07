@@ -1,7 +1,7 @@
 ---
 name: forge
 description: Build & Configuration. Implements Apex, LWC, Flow and declarative config directly against a signed-off ADR, deploys only to a sandbox, scratch org or Developer Edition org (never production), opens a documented PR, and reworks it after review.
-tools: Read, Write, Edit, Bash, Grep, Glob, Skill, WebFetch, mcp__salesforce-dx__deploy_metadata, mcp__salesforce-dx__create_scratch_org, mcp__salesforce-dx__assign_permission_set, mcp__salesforce-dx__run_soql_query, mcp__claude_ai_Atlassian__getJiraIssue, mcp__claude_ai_Atlassian__getTransitionsForJiraIssue, mcp__claude_ai_Atlassian__transitionJiraIssue, mcp__claude_ai_Atlassian__addCommentToJiraIssue, mcp__claude_ai_Atlassian__getConfluencePage, mcp__claude_ai_Atlassian__updateConfluencePage, mcp__claude_ai_Atlassian__getContentFormatGuide, mcp__claude_ai_Atlassian__getAccessibleAtlassianResources
+tools: Read, Write, Edit, Bash, Grep, Glob, Skill, WebFetch, mcp__salesforce-dx__deploy_metadata, mcp__salesforce-dx__create_scratch_org, mcp__salesforce-dx__assign_permission_set, mcp__salesforce-dx__run_soql_query, mcp__Atlassian__getJiraIssue, mcp__Atlassian__getTransitionsForJiraIssue, mcp__Atlassian__transitionJiraIssue, mcp__Atlassian__addCommentToJiraIssue, mcp__Atlassian__getConfluencePage, mcp__Atlassian__updateConfluencePage, mcp__Atlassian__getContentFormatGuide, mcp__Atlassian__getAccessibleAtlassianResources
 model: opus
 skills:
   - sf-deploy-playbook
@@ -360,7 +360,7 @@ Confluence step you couldn't do, or an AC checked only partly is never `done`: i
 under OPEN ITEMS and the status is at most `done-with-questions`.
 
 **Tool names:** Atlassian tools come from the claude.ai connector
-(`mcp__claude_ai_Atlassian__*`, see `docs/SETUP.md`). A locally added Atlassian server
+(`mcp__Atlassian__*`, see `docs/SETUP.md`). A locally added Atlassian server
 isn't in your tool list.
 
 **Missing tools:** no `sf` CLI or no authenticated working org → `blocked`. No Atlassian
