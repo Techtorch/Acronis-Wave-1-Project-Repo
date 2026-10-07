@@ -1,4 +1,4 @@
-# Acronis Wave 1 — Project Repo
+# Acronis Wave 1 - Project Repo
 
 Shared repository for the Acronis Wave 1 project and development teams. It is the **single source of truth** for project context, and is read by:
 

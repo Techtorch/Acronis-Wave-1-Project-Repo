@@ -1,4 +1,4 @@
-# NNN — Decision title
+# NNN - Decision title
 
 - **Date:** YYYY-MM-DD
 - **Status:** Proposed | Accepted | Superseded by NNN
