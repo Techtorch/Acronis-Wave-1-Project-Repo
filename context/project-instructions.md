@@ -1,3 +1,12 @@
+<!--
+Master copy of the claude.ai Project instructions for the "Acronis Project Workspace".
+Copied word for word from the Project on 2026-10-07. Edit here first, then paste the
+change back into the Project's instructions (or point the Project at this file).
+The Torchbearers agent files referenced in section 11 are in this repo: agents in
+.claude/agents/, framework files (CLAUDE.md, WELL-ARCHITECTED.md, README.md) in
+knowledge/reference/torchbearers/. They are also in the claude.ai Project knowledge.
+-->
+
 # TechTorch Lead-to-Cash Solution: Project Instructions
 
 Summary, this phase follows the assessment phase whereby clear work streams and ownership for the design and build phase has been achieved. 
