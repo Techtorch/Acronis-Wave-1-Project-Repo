@@ -2,14 +2,14 @@
 
 ## Claude.ai Project
 1. Open the Acronis Project in claude.ai.
-2. In **Project knowledge**, click **+** → **GitHub** and select `abhi1kalia/Acronis-Wave-1-Project-Repo`.
+2. In **Project knowledge**, click **+** → **GitHub** and select `Techtorch/Acronis-Wave-1-Project-Repo`.
 3. Select the `context/` and `knowledge/` folders, plus `CLAUDE.md`.
 4. Keep the Project's own instructions short, for example: _"Follow `context/project-instructions.md` in the synced repo."_ The full instructions live in the repo.
 5. After changes are pushed, re-sync the GitHub knowledge in the Project so it picks them up.
 
 ## Claude Code
 ```bash
-git clone https://github.com/abhi1kalia/Acronis-Wave-1-Project-Repo.git
+git clone https://github.com/Techtorch/Acronis-Wave-1-Project-Repo.git
 cd Acronis-Wave-1-Project-Repo
 claude
 ```
