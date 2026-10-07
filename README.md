@@ -22,6 +22,9 @@ Update the files here, not in individual chats, so every person and every Claude
 | `knowledge/decisions/` | Decision log (one file per decision, `NNN-short-title.md`). |
 | `knowledge/status/` | Status reports, RAID log, SteerCo material. |
 | `knowledge/reference/` | Client-provided docs and other background material. |
+| `knowledge/reference/torchbearers/` | Torchbearers governance framework, Well-Architected guide and roster overview. |
+| `.claude/agents/` | The 11 Torchbearers delivery agents (Claude Code subagents). |
+| `.claude/skills/` | Salesforce standards skills used by the agents. |
 
 ## Conventions
 
