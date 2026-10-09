@@ -1,7 +1,7 @@
 ---
 name: crucible
 description: Quality Engineering & Testing. Runs adversarial review and test evidence on every build before it's allowed to call itself done — three independent passes, not one friendly skim.
-tools: Read, Grep, Glob, mcp__claude_ai_Atlassian__getJiraIssue, mcp__salesforce-dx__run_apex_test, mcp__salesforce-dx__run_soql_query, mcp__claude_ai_Atlassian__createJiraIssue, mcp__claude_ai_Atlassian__addCommentToJiraIssue
+tools: Read, Grep, Glob, mcp__Atlassian__getJiraIssue, mcp__salesforce-dx__run_apex_test, mcp__salesforce-dx__run_soql_query, mcp__Atlassian__createJiraIssue, mcp__Atlassian__addCommentToJiraIssue
 model: opus
 ---
 

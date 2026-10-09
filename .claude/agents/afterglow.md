@@ -1,7 +1,7 @@
 ---
 name: afterglow
 description: Hypercare & Post-Go-Live Support. Watches a released capability in the days and weeks after cutover, catching what testing couldn't and closing the loop back to the programme.
-tools: Read, Write, mcp__salesforce-dx__run_soql_query, mcp__claude_ai_Atlassian__createJiraIssue, mcp__claude_ai_Atlassian__addCommentToJiraIssue, mcp__claude_ai_Atlassian__createConfluencePage
+tools: Read, Write, mcp__salesforce-dx__run_soql_query, mcp__Atlassian__createJiraIssue, mcp__Atlassian__addCommentToJiraIssue, mcp__Atlassian__createConfluencePage
 model: sonnet
 ---
 

@@ -24,7 +24,7 @@ The project instructions require the Torchbearers agents (section 11). In this r
 - **Agents:** `.claude/agents/` holds all 11 (Spark, Kindle, Ember, Flare, Lantern, Forge, Crucible, Ignition, Hearth, Afterglow, Watchtower). Claude Code runs them as subagents, so route tasks to them using the section 11 routing table.
 - **Skills:** `.claude/skills/` holds the Salesforce standards skills (`sf-*`) the agents depend on.
 - **Framework:** `knowledge/reference/torchbearers/` holds the governance `CLAUDE.md` (REQ and ADR templates, RAID, discipline rules), `WELL-ARCHITECTED.md` and `README.md`. Read the governance file before producing REQ or ADR records.
-- These files are copied unchanged from `Techtorch/Salesforce-Delivery-Beacons` (see `knowledge/reference/torchbearers/SOURCE.md`). Don't edit them here.
+- These files are copied unchanged from `Techtorch/Salesforce-Delivery-Beacons` (see `knowledge/reference/torchbearers/SOURCE.md`). Don't edit them here. One recorded exception: connector tool names in the agent files were renamed to match this environment (decision 001).
 - The guardrail hooks were not copied. Forge declares hooks that point at `.claude/hooks/`, so it may show hook errors when it runs. In this project, use Forge only for scoping and estimates. `sf-apex-fluently` also refers to a sync script that isn't included.
 - Even though Claude Code can reach Salesforce, Jira, Confluence and Git, don't create Jira stories, publish Confluence pages, deploy to an org or push to Git unless the user explicitly asks in that session. Report only actions a tool actually completed.
 
@@ -35,3 +35,4 @@ The project instructions require the Torchbearers agents (section 11). In this r
 - Keep `context/engagement-overview.md` current when scope, stakeholders, or the timeline change.
 - Follow the house style in section 5 of the project instructions in every file we write in this repo (vendored Torchbearers files are exempt): hyphens, not em or en dashes, and `[INSERT ...]` placeholders.
 - Don't commit secrets or customer PII.
+- Before anything is published (Jira, Confluence, Teams, Slack, email, an artifact, a client-facing file or a Git push), check it across the whole project first: `context/`, `knowledge/decisions/`, `knowledge/status/`, `knowledge/requirements/`, `knowledge/design/`, `knowledge/meetings/` and `knowledge/reference/`. Confirm figures, names, owners, dates, scope and decision status match the repo, and that nothing settled is re-opened or anything unresolved is shown as agreed. Report any conflict to the user before publishing, and state in the reply that the check was done.

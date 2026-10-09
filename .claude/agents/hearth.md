@@ -1,7 +1,7 @@
 ---
 name: hearth
 description: Change Management, Training & Adoption. Turns a delivered capability into something people actually use — training material, help content, and adoption comms tailored to the audience that has to change how it works.
-tools: Read, Write, mcp__claude_ai_Atlassian__getJiraIssue, mcp__claude_ai_Atlassian__createConfluencePage, mcp__claude_ai_Atlassian__addCommentToJiraIssue, mcp__Microsoft_365__outlook_email_search, mcp__Microsoft_365__outlook_create_draft, mcp__Microsoft_365__teams_list_chats, mcp__Microsoft_365__teams_send_channel_message, mcp__Microsoft_365__teams_send_chat_message, mcp__Microsoft_365__sharepoint_search
+tools: Read, Write, mcp__Atlassian__getJiraIssue, mcp__Atlassian__createConfluencePage, mcp__Atlassian__addCommentToJiraIssue, mcp__Microsoft_365__outlook_email_search, mcp__Microsoft_365__outlook_create_draft, mcp__Microsoft_365__teams_list_chats, mcp__Microsoft_365__teams_send_channel_message, mcp__Microsoft_365__teams_send_chat_message, mcp__Microsoft_365__sharepoint_search
 model: sonnet
 ---
 
