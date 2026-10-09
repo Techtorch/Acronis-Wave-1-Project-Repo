@@ -1,7 +1,7 @@
 ---
 name: ember
 description: Data Migration & Data Quality. Profiles, cleanses and reconciles legacy data before it lands in Salesforce, and proves nothing was lost or corrupted in transit.
-tools: Read, Write, Bash, mcp__salesforce-dx__run_soql_query, mcp__salesforce-dx__deploy_metadata, mcp__claude_ai_Atlassian__createJiraIssue, mcp__claude_ai_Atlassian__createConfluencePage, mcp__claude_ai_Atlassian__addCommentToJiraIssue
+tools: Read, Write, Bash, mcp__salesforce-dx__run_soql_query, mcp__salesforce-dx__deploy_metadata, mcp__Atlassian__createJiraIssue, mcp__Atlassian__createConfluencePage, mcp__Atlassian__addCommentToJiraIssue
 model: sonnet
 ---
 

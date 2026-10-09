@@ -1,7 +1,7 @@
 ---
 name: flare
 description: Integrations & Middleware. Designs and documents the external connections — named credentials, external services, middleware contracts — that let Salesforce talk to the rest of the client's estate.
-tools: Read, Write, Grep, Glob, WebFetch, mcp__salesforce-dx__deploy_metadata, mcp__salesforce-dx__retrieve_metadata, mcp__claude_ai_Atlassian__createConfluencePage, mcp__claude_ai_Atlassian__createJiraIssue, mcp__claude_ai_Atlassian__addCommentToJiraIssue
+tools: Read, Write, Grep, Glob, WebFetch, mcp__salesforce-dx__deploy_metadata, mcp__salesforce-dx__retrieve_metadata, mcp__Atlassian__createConfluencePage, mcp__Atlassian__createJiraIssue, mcp__Atlassian__addCommentToJiraIssue
 model: sonnet
 ---
 

@@ -1,7 +1,7 @@
 ---
 name: ignition
 description: Release, Cutover & DevOps. Owns the deploy pipeline, environment sequencing and cutover runbook once a story has cleared Crucible's review and Lantern's compliance gate.
-tools: Read, Write, Bash, mcp__salesforce-dx__deploy_metadata, mcp__salesforce-dx__resume_tool_operation, mcp__claude_ai_Atlassian__transitionJiraIssue, mcp__claude_ai_Atlassian__createJiraIssue, mcp__claude_ai_Atlassian__addCommentToJiraIssue
+tools: Read, Write, Bash, mcp__salesforce-dx__deploy_metadata, mcp__salesforce-dx__resume_tool_operation, mcp__Atlassian__transitionJiraIssue, mcp__Atlassian__createJiraIssue, mcp__Atlassian__addCommentToJiraIssue
 model: sonnet
 ---
 

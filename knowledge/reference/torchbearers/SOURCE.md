@@ -15,3 +15,5 @@ Copied unchanged from `Techtorch/Salesforce-Delivery-Beacons` at commit `8dd9198
 Not copied: `.claude/hooks/`, `.claude/scripts/`, `.claude/settings.json`, `.claude/code-analyzer.yml`, `ONBOARDING.md`, `docs/SETUP.md`.
 
 To refresh, re-copy from the latest Beacons commit and update the commit reference above. Don't edit these files here. Change them in the Beacons repo instead.
+
+Local override: the agent files use this environment's connector tool prefixes (`mcp__Fireflies__`, `mcp__Lucid__`, `mcp__Atlassian__`) in place of the source names. Re-apply after each refresh. See `knowledge/decisions/001-agent-tool-name-override.md`.
