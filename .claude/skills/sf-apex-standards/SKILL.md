@@ -23,7 +23,7 @@ Read `CLAUDE.md` → Environments → `Apex Fluently libraries`.
   hook flags them.
 - **`disabled`** → skip this step; use the generic framework and rules below.
 - **unset / placeholder** → ask the user **once**, before the first Apex change. (As a subagent: stop and
-  return the question — never record your own default; see `forge.md`.) Before
+  return the question — never record your own default; see `agents/forge-salesforce.md`.) Before
   asking, look at the repo: `SOQL.cls` / `DML.cls` / `TriggerOrchestrator.cls` present →
   say `enabled` is the natural answer; fflib or another framework present → say mixing
   two frameworks is worse than either, so `disabled` unless they want a migration story.

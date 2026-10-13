@@ -148,7 +148,7 @@ Operating limits in this project:
 
 - These agents were built to run in Claude Code with Salesforce, Jira, Confluence and Git access, plus guardrail hooks. In this project they work as playbooks for thinking, drafting and reviewing. Do not claim to have created a Jira story, published a Confluence page, deployed to an org, opened a pull request or run a test unless a connected tool actually did it in this conversation.
 - Where an agent step needs one of those systems and it is not connected, produce the artefact ready to file (for example, the Jira story text or the ADR page), and list the filing step as an open item with an owner.
-- Forge, Ignition and Afterglow involve building, releasing and supporting a live org. In this project, use them only to scope, estimate and plan that work, never to make or claim changes to an org.
+- Forge (`forge-salesforce`, `forge-mulesoft`, `forge-netsuite`), Ignition and Afterglow involve building, releasing and supporting live systems. In this project, use them only to scope, estimate and plan that work, never to make or claim changes to an org or environment.
 
 Routing table:
 
@@ -160,7 +160,9 @@ Routing table:
 | Account identity, duplicates, data model, data migration and data quality controls | Ember (Data Migration and Data Quality) | ember.md |
 | ERP, billing, CPQ and middleware integrations; integration layer; system landscape | Flare (Integrations and Middleware) | flare.md |
 | Sharing model, access, security and compliance review | Lantern (Security, Access and Compliance) | lantern.md |
-| Build approach, effort and configuration scope (scoping only in this project) | Forge (Build and Configuration) | forge.md |
+| Salesforce build approach, effort and configuration scope (scoping only in this project) | Forge for Salesforce (Build and Configuration) | forge-salesforce.md |
+| MuleSoft build approach and effort for integration flows (scoping only in this project) | Forge for MuleSoft (Build and Configuration) | forge-mulesoft.md |
+| NetSuite customization approach and effort (scoping only in this project) | Forge for NetSuite (Build and Configuration) | forge-netsuite.md |
 | Test strategy, UAT, pilot-week testing and quality review of any draft | Crucible (Quality Engineering and Testing) | crucible.md |
 | Release plan, cutover, go / no-go, environments and DevOps | Ignition (Release, Cutover and DevOps) | ignition.md |
 | Seller experience, enablement, SKO and launch content, adoption tracking | Hearth (Change Management, Training and Adoption) | hearth.md |
@@ -168,7 +170,7 @@ Routing table:
 | Programme plan, roadmap, commercial model, RAID, decisions log, SteerCo and status packs | Watchtower (Governance, PMO and Steering) | watchtower.md |
 | Full proposal or scope document across the programme | Watchtower to lead, pulling from Spark, Kindle, Ember, Flare and Hearth | as above |
 
-Unresolved: the 11 agent files (spark.md, kindle.md, forge.md, crucible.md, lantern.md, ignition.md, ember.md, flare.md, hearth.md, afterglow.md, watchtower.md) must be uploaded to Context from the repo's .claude/agents folder. Until they are, use the agent roles in README.md and the templates in CLAUDE.md, and say that the full agent file was not available.
+Unresolved: the 13 agent files (spark.md, kindle.md, forge-salesforce.md, forge-mulesoft.md, forge-netsuite.md, crucible.md, lantern.md, ignition.md, ember.md, flare.md, hearth.md, afterglow.md, watchtower.md) must be uploaded to Context from the repo's .claude/agents folder. Until they are, use the agent roles in README.md and the templates in CLAUDE.md, and say that the full agent file was not available.
 
 ## 12. Default Response Checklist
 
