@@ -19,7 +19,7 @@ Read `CLAUDE.md` → Environments → `Automation bypass framework`.
   (`customPermissions/Bypass*`, `$Permission.Bypass` in VRs/flows) and mention it — an
   org that already has it should say `enabled`. Write the answer into `CLAUDE.md`
   (`enabled` / `disabled`) in the same change, so no later session asks again. (As a subagent: stop and
-  return the question — never record your own default; see `forge.md`.)
+  return the question — never record your own default; see `agents/forge-salesforce.md`.)
 
 ## Per-object components
 

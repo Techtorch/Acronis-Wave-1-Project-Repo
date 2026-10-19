@@ -1,0 +1,5 @@
+{
+  "_readme": "Non-production targets that Claude agents may write to. Maintained by a person, never by an agent (prod-write-guard blocks agent edits to this file). An empty list means every MuleSoft or NetSuite write is refused. Salesforce orgs are not listed here: the guard asks each org whether it is a sandbox.",
+  "anypointEnvironments": [],
+  "netsuiteAuthIds": []
+}
