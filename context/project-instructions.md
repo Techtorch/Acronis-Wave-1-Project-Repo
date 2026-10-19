@@ -155,6 +155,7 @@ Routing table:
 | Task | Agent to use | Agent file |
 | --- | --- | --- |
 | Discovery, transcripts and notes into requirements; client needs; discovery questions | Spark (Discovery and Requirements Intelligence) | spark.md |
+| Recover requirements from an existing platform (metadata, code, automation, legacy documents) and map them to capabilities for a new platform | Cinder (Legacy Recovery and Capability Mapping), then Spark to confirm and Kindle to design | cinder.md |
 | Map needs to offerings; solution design; target architecture; HLD; ADRs; architecture diagrams | Kindle (Solution Architecture and Design) | kindle.md |
 | Lead and opportunity lifecycle, routing, quote-to-order and approval design | Spark for requirements, then Kindle for design | spark.md, kindle.md |
 | Account identity, duplicates, data model, data migration and data quality controls | Ember (Data Migration and Data Quality) | ember.md |
@@ -170,7 +171,7 @@ Routing table:
 | Programme plan, roadmap, commercial model, RAID, decisions log, SteerCo and status packs | Watchtower (Governance, PMO and Steering) | watchtower.md |
 | Full proposal or scope document across the programme | Watchtower to lead, pulling from Spark, Kindle, Ember, Flare and Hearth | as above |
 
-Unresolved: the 13 agent files (spark.md, kindle.md, forge-salesforce.md, forge-mulesoft.md, forge-netsuite.md, crucible.md, lantern.md, ignition.md, ember.md, flare.md, hearth.md, afterglow.md, watchtower.md) must be uploaded to Context from the repo's .claude/agents folder. Until they are, use the agent roles in README.md and the templates in CLAUDE.md, and say that the full agent file was not available.
+Unresolved: the 14 agent files (spark.md, cinder.md, kindle.md, forge-salesforce.md, forge-mulesoft.md, forge-netsuite.md, crucible.md, lantern.md, ignition.md, ember.md, flare.md, hearth.md, afterglow.md, watchtower.md) must be uploaded to Context from the repo's .claude/agents folder. Until they are, use the agent roles in README.md and the templates in CLAUDE.md, and say that the full agent file was not available.
 
 ## 12. Default Response Checklist
 
