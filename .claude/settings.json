@@ -11,6 +11,35 @@
             "timeout": 90
           }
         ]
+      },
+      {
+        "matcher": "mcp__.*[Ff]ireflies.*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"$CLAUDE_PROJECT_DIR/.claude/hooks/fireflies-acronis-guard.js\" || exit 2"
+          }
+        ]
+      },
+      {
+        "matcher": "Bash|WebFetch|Edit|Write|MultiEdit|NotebookEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"$CLAUDE_PROJECT_DIR/.claude/hooks/fireflies-acronis-guard.js\" || exit 2"
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "mcp__.*[Ff]ireflies.*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"$CLAUDE_PROJECT_DIR/.claude/hooks/fireflies-acronis-guard.js\" || exit 2"
+          }
+        ]
       }
     ]
   }
